@@ -10,3 +10,4 @@ elif choose=="rock":
     print("draw")
 else:
     print("invalid move")
+    

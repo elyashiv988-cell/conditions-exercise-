@@ -1,4 +1,5 @@
 #namber 1
+'''
 user_age=int(input("please enter your age "))
 if user_age >= 18:
     print("can enter")
@@ -53,3 +54,14 @@ elif number1 < number2:
     print("secend is bigger")
 else: 
     print("equal")
+# number 8
+'''
+fuel= 40
+distance=30
+if fuel - distance >=10:
+    print("enough fuel with rserve")
+elif 0 < fuel - distance < 10:
+    print("enough fuel, low resreve")
+else:
+    print("not enough fuel")
+

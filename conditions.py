@@ -64,4 +64,9 @@ elif 0 < fuel - distance < 10:
     print("enough fuel, low resreve")
 else:
     print("not enough fuel")
-
+# number 9
+username=input("enter your username ")
+if username:
+    print(f"hello {username}")
+else:
+    print("guest user")

@@ -44,3 +44,12 @@ elif score > 60:
     print("pass")
 else:
     print("failed")
+# number 7
+number1=int(input("enter first number"))
+number2=int(input("enter secend number"))
+if number1 > number2:
+    print("first is bigger")
+elif number1 < number2:
+    print("secend is bigger")
+else: 
+    print("equal")

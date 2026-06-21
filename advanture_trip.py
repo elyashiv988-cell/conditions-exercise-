@@ -1,4 +1,5 @@
 trip=input("where do you want to go? ")
+
 match trip:
     case "forest":
         choose=input("what do you want, hide or walk ")
@@ -20,3 +21,7 @@ match trip:
                 print("invalid cave path")
         else:
             print("it's too dark to enter")
+    case "river":
+        print("you find a boat")
+    case _:
+        print("unknown place")

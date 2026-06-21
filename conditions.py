@@ -70,3 +70,13 @@ if username:
     print(f"hello {username}")
 else:
     print("guest user")
+#number 10
+hour=21
+if hour < 0 or hour > 23:
+    print("invalid hour")
+elif hour < 12:
+    print("Morning")
+elif hour < 18:
+    print("Afternoon")
+else:
+    print("evening")

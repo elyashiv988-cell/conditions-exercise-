@@ -27,3 +27,20 @@ elif battery <20 and is_charging==False:
     print("low battery, connent charger")
 else:
     print("battery OK")
+# number 5
+stored_password="python123"
+user_password=(input("enter your password"))
+if stored_password==user_password:
+    print("access approved")
+else:
+    print("access denied")
+# number 6
+score=72
+if score >90:
+    print("excellent")
+elif score >75:
+    print("good")
+elif score > 60:
+    print("pass")
+else:
+    print("failed")

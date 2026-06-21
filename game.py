@@ -4,4 +4,9 @@ if choose==computer_choice:
     print("draw")
 elif choose == "paper":
     print("you win!")
-elif
+elif choose=="scissors":
+    print("computer wins")
+elif choose=="rock":
+    print("draw")
+else:
+    print("invalid move")
